@@ -26,6 +26,8 @@ def home(request):
     return render(request, 'home.html')
 def call(request):
     return render(request, 'call.html')
+def trial(request):
+    return render(request, 'hero.html')
 
 def payment_success(request):
     return render(request, "payment_success.html")

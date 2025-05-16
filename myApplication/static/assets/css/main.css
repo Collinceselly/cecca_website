@@ -675,7 +675,7 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-
+/* 
 .hero .carousel-inner h5 {
   color: white;
   font-weight: bolder;
@@ -688,7 +688,7 @@ section,
   font-size: 20px;
 }
 
-/* Ensure carousel items fade instead of slide */
+
 .carousel-fade .carousel-item {
   opacity: 0;
   transition: opacity 0.75s ease-in-out;
@@ -696,13 +696,13 @@ section,
 .carousel-fade .carousel-item.active {
   opacity: 1;
 }
-/* Set a fixed height for the carousel (adjust as needed) */
+
 .carousel-inner img {
   width: 100%;
-  height: 80%; /* Adjust height */
-  object-fit: cover; /* Ensure images fit nicely */
+  height: 80%;
+  object-fit: cover; 
 }
-
+ */
 
 /*--------------------------------------------------------------
 # About Section
