@@ -709,11 +709,29 @@ section,
 --------------------------------------------------------------*/
 
 .about {
-  background-color: rgb(241, 232, 216);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  /* background-color: rgb(241, 232, 216); */
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/output3.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.5; /* Adjust this for desired transparency */
+  z-index: 0;
 }
 
 .about .container h3{
   font-size: 40px;
+  font-weight: bold;
 }
 
 .about .container p{
@@ -873,6 +891,12 @@ section,
   position: relative;
   overflow: hidden;
 }
+
+
+
+/*--------------------------------------------------------------
+# Get involved Section
+--------------------------------------------------------------*/
 
 .get-involved .service-item {
   background-color: var(--surface-color);
