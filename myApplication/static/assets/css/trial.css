@@ -111,8 +111,6 @@ nav ul li a:hover {
     position: relative;
     text-align: center;
     z-index: 1;
-    /* background: url('../img/output2.jpg') no-repeat center center/cover; */
-    /* background: none; */
 }
 
 /* Pseudo-element for transparent background image */
